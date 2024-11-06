@@ -1,0 +1,88 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "Android"
+    },
+    {
+      "type": "text",
+      "name": "appium:automationName",
+      "value": "UIAutomator2"
+    },
+    {
+      "type": "text",
+      "name": "appium:deviceName",
+      "value": "oneplus"
+    },
+    {
+      "type": "text",
+      "name": "appium:platformVersion",
+      "value": "12"
+    },
+    {
+      "type": "text",
+      "name": "appium:app",
+      "value": "C:\\Users\\gp1\\Documents\\bKash_base.apk"
+    },
+    {
+      "type": "boolean",
+      "name": "appium:skipServerInstallation",
+      "value": true
+    },
+    {
+      "type": "boolean",
+      "name": "appium:noReset",
+      "value": true
+    },
+    {
+      "type": "boolean",
+      "name": "appium:printPageSourceOnFindFailure",
+      "value": true
+    },
+    {
+      "type": "text",
+      "name": "appium:newCommandTimeout",
+      "value": "86000"
+    },
+    {
+      "type": "text",
+      "value": "21000",
+      "name": "appium:adbExecTimeout"
+    },
+    {
+      "type": "boolean",
+      "name": "appium:forceAppLaunch",
+      "value": true
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "ssl": false,
+      "port": ""
+    },
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {
+      "allowUnauthorized": true,
+      "useProxy": false
+    },
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {},
+    "remotetestkit": {},
+    "mobitru": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}
